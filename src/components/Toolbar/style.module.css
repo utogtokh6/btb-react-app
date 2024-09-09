@@ -20,3 +20,9 @@
         display: none;
     }
 }
+
+@media (min-width: 500px ){
+    .HanburgerMenu{
+        display: none;
+    }
+}

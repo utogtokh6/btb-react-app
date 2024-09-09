@@ -8,7 +8,7 @@ import Sidebar from "../../components/Sidebar"
 
 function App() {
 
-  const [showSidebar, setShowSidebar] = useState(true);
+  const [showSidebar, setShowSidebar] = useState(false);
 
   // state-г өөрчлөх функц
   const toggleSideBar = () => {

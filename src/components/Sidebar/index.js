@@ -13,8 +13,8 @@ if (props.showSidebar){
 
  return   (
 <div>
-<Shadow show = {props.showSidebar}/>
- <div className={classes.join(" ")}>
+<Shadow show = {props.showSidebar} onClick = {props.toggleSideBar}/>
+ <div onClick={props.toggleSideBar} className={classes.join(" ")}>
     <div className={css.Logo}>
         <Logo/>
     </div>
