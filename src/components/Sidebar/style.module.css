@@ -1,0 +1,32 @@
+.Sidebar {
+    width: 280px;
+    background-color: rgb(3, 46, 83);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 200;
+    padding: 32px 16px;
+    translation: transform 0.3s ease-out;
+
+}
+
+
+.Logo img{
+    height: 8vh;
+}
+
+@media (min-width:500px){
+    .Sidebar {
+        display: none;
+    }
+}
+
+
+.Open {
+    transform: translateX(0);
+}
+
+.Close{
+transform: translateX(-100%);
+}
