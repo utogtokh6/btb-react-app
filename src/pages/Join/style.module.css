@@ -1,0 +1,33 @@
+.Join{
+padding: 20px;
+text-align: center;
+ }
+
+ Form{
+    max-width: 400px;
+    margin: 30px;
+ }
+
+ Form div{
+margin-bottom: 10px;
+ }
+
+ Form div label input{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    width: 100%;
+}
+
+Form div label textarea{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    width: 100%;
+    height: 100px;
+}
+
+Form button{
+padding: 10px 20px;
+cursor: pointer;
+}

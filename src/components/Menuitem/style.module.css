@@ -6,7 +6,7 @@
 }
 
 .MenuItem a{
-    color: white;
+    color: var(--text-color);
     text-decoration: none;
     display: block;
     height: 100%;
@@ -16,7 +16,8 @@
 .MenuItem a:hover,
 .MenuItem a:active,
 .MenuItem a.active{
-color:aqua
+color: var(--button-color);
+font-weight: bold;
 }
 
 
@@ -30,7 +31,7 @@ color:aqua
     }
 
     .MenuItem a{
-        color: white;
+        color: var(--text-color);
         text-decoration: none;
         height: 100%;
         padding: 16px 10px;
@@ -41,8 +42,8 @@ color:aqua
     .MenuItem a:hover,
     .MenuItem a:active,
     .MenuItem a.active{
-        background-color:#367ab3 ;
-        border-bottom: 4px solid white;
+        background-color:var(--secondary-color) ;
+        border-bottom: 4px solid var(--text-color);
 
     }
 

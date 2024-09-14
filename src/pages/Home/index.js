@@ -1,16 +1,9 @@
-import React, { Component } from "react";
-import css from "./style.module.css"
+import React from 'react'
+import css from './style.module.css';
 
-class Home extends Component {
-    render(){
-        return(
-
-                <div className={css.home}>Home Page
-
-                </div>
-
-        )
-    }
+ const Home = () => {
+  return (
+    <div className={css.Home}>Home Page</div>
+  )
 }
-
 export default Home;

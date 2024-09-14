@@ -1,0 +1,25 @@
+.icon {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 20px;
+  }
+
+  .icon-small {
+    font-size: 20px;
+  }
+
+  .icon-medium {
+    font-size: 40px;
+  }
+
+  .icon-large {
+    font-size: 60px;
+  }
+
+  .icon-primary {
+    color: var(--primary-color);
+  }
+
+  .icon-secondary {
+    color: var(--secondary-color);
+  }

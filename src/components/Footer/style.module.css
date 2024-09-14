@@ -1,0 +1,74 @@
+.Footer{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.FooterTop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: var(--dark-color);
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 90;
+    }
+
+.FooterBottom{
+    height: 70px;
+    width: 100%;
+    background-color: var(--dark-color);
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+    align-content: center;
+    padding: 0 20px;
+    z-index: 90;}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-self: center;
+    justify-items: center;
+}
+
+.container{
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Footer h4{color: var(--button-color);}
+
+.icon {
+    font-size: 50px;
+    color: #1DA1F2; /* Twitter icon color */
+    margin-right: 15px;
+  }
+
+  .facebook-icon {
+    color: #1877F2; /* Facebook icon color */
+  }
+
+  .instagram-icon {
+    color: #C13584; /* Instagram icon color */
+  }
+
+
+
+
+
+
+@media (max-width: 500px ){
+    /* .HideOnMobile{
+        display: none; */
+    }
+
+
+@media (min-width: 500px ){
+    /* .HanburgerMenu{
+        display: none;
+    } */
+}

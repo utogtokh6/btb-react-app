@@ -3,6 +3,7 @@ import css from "./style.module.css"
 import Logo from "../Logo";
 import Menu from "../Menu";
 import Shadow from "../General/Shadow";
+import "../../styles/variables.module.css";
 
 const Sidebar = (props) =>{
 
