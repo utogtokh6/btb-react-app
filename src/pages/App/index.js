@@ -1,5 +1,5 @@
-import React, {useState} from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React, { useState } from 'react';
+import { Routes, Route } from 'react-router-dom'; // Router-г энд ашиглахгүй
 import css from './style.module.css';
 import Toolbar from '../../components/Toolbar';
 import Home from '../Home';
@@ -9,11 +9,9 @@ import Products from '../Products';
 import Services from '../Services';
 import Join from '../Join';
 import Sidebar from "../../components/Sidebar";
-import Footer from "../../components/Footer";
-
+import Footer1 from "../../components/Footer1";
 
 function App() {
-
   const [showSidebar, setShowSidebar] = useState(false);
 
   // state-г өөрчлөх функц
@@ -21,19 +19,18 @@ function App() {
     setShowSidebar(prevState => !prevState);
   };
 
-return (
-  <div>
+  return (
+    <div>
+      <h1>App is working</h1>
+
       {/* toggleSideBar функцыг Toolbar руу дамжуулна */}
       <Toolbar toggleSideBar={toggleSideBar} />
       {/* SideBar-д showSidebar болон toggleSideBar props дамжуулна */}
-      <Sidebar showSidebar={showSidebar} toggleSideBar={toggleSideBar}/>
-<div>
+      <Sidebar showSidebar={showSidebar} toggleSideBar={toggleSideBar} />
 
-</div>
-  <main className={css.content}>
-  <Router>
+      <main className={css.content}>
         <Routes>
-          <Route path="/"  exact element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/Home" element={<Home />} />
           <Route path="/Products" element={<Products />} />
           <Route path="/Services" element={<Services />} />
@@ -41,13 +38,11 @@ return (
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Join" element={<Join />} />
         </Routes>
-      </Router>
-  </main>
-  <Footer/>
+      </main>
 
-</div>
-
-);
-};
+      <Footer1 />
+    </div>
+  );
+}
 
 export default App;

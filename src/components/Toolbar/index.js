@@ -6,7 +6,7 @@ import HamburgerMenu from "../HamburgerMenu";
 const Toolbar = (props) =>(
 <header className={css.Toolbar}>
     <div className ={css.HanburgerMenu}><HamburgerMenu toggleSideBar = {props.toggleSideBar} /></div>
-    <div><Logo /></div>
+    <div><Logo color="white" /></div>
     <nav className={css.HideOnMobile}><Menu /></nav>
 </header>
 );

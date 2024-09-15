@@ -4,7 +4,8 @@ import css from "./style.module.css"
 const Menu = () => (
 <div>
     <ul className={css.Menu}>
-        <li><MenuItem active link='/Home'>Home</MenuItem></li>
+        <li><MenuItem exact link='/'>Home</MenuItem></li>
+        {/* <li><MenuItem link='/Home'>Home</MenuItem></li> */}
         <li><MenuItem link='/Products'>Products</MenuItem></li>
         <li><MenuItem link='/Services'>Services</MenuItem></li>
         <li><MenuItem link='/About'>About</MenuItem></li>

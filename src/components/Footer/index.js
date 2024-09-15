@@ -11,7 +11,7 @@ import Icon from '../Icon'
     <div className="container">
       <div className={css.row}>
         <div>
-          <Logo />
+          <Logo color='black' />
         </div>
         <div>
           <h4>Location</h4>
@@ -41,8 +41,6 @@ import Icon from '../Icon'
           <a href="https://www.instagram.com/btbsteelworks" target="_blank">
           <Icon iconType="instagram" size="medium" color="secondary" />
             </a>
-
-
           </div>
         </div>
       </div>
