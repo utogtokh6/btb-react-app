@@ -10,7 +10,7 @@ const ImageAlbum  = () => {
   return (
     <div>
       <Swiper spaceBetween={10} slidesPerView={1}>
-        <SwiperSlide className={CSS.SwiperSlide}>
+        <SwiperSlide className={SwiperSlide}>
           <img src={Image1} alt='Image1'/>
         </SwiperSlide>
         <SwiperSlide>

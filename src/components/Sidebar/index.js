@@ -19,7 +19,7 @@ if (props.showSidebar){
     <div className={css.Logo}>
         <Logo/>
     </div>
-    <Menu/>
+    <Menu className={css.Menu}/>
 
   </div>
  </div>

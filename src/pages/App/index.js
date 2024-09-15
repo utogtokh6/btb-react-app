@@ -9,7 +9,8 @@ import Products from '../Products';
 import Services from '../Services';
 import Join from '../Join';
 import Sidebar from "../../components/Sidebar";
-import Footer1 from "../../components/Footer1";
+import Footer from "../../components/Footer";
+import FooterTop from "../../components/FooterTop";
 
 function App() {
   const [showSidebar, setShowSidebar] = useState(false);
@@ -39,8 +40,9 @@ function App() {
           <Route path="/Join" element={<Join />} />
         </Routes>
       </main>
+      <FooterTop />
 
-      <Footer1 />
+      <Footer />
     </div>
   );
 }

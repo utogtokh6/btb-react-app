@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import LogoImageWhite from "../../assets/images/logo/white-text-logo.png";
 import LogoImageBlack from "../../assets/images/logo/black-text-logo.png";  // Assuming this should be the black version
 import css from "./style.module.css";
@@ -9,7 +10,9 @@ const Logo = ({ color = 'white' }) => {
 
   return (
     <div className={css.Logo}>
-      <img src={logoSrc} alt="Logo" />
+      <Link to="/home"><img src={logoSrc} alt="Logo" />
+      </Link>
+
     </div>
   );
 };

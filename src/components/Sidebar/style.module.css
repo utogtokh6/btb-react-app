@@ -1,4 +1,4 @@
-.Sidebar {
+/* .Sidebar {
     width: 280px;
     background-color: var(--primary-color);
     position: fixed;
@@ -29,4 +29,79 @@
 
 .Close{
 transform: translateX(-100%);
+} */
+
+
+/* Sidebar үндсэн бүтэц */
+.Sidebar {
+    width: 280px; /* Өргөн */
+    background-color: var(--primary-color); /* Зохих өнгө */
+    position: fixed;
+    top: 0;
+    left: 0; /* Эхлээд дэлгэцийн зүүн талд нуугдсан */
+    height: 100%; /* Бүх өндрийг эзлэх */
+    z-index: 200; /* Дэлгэцийн урд талд байх */
+    padding: 32px 16px; /* Доторх зай */
+    transition: transform 0.7s ease-out; /* Зөөлөн нээгдэх/хаагдах хөдөлгөөн */
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5); /* Хөнгөн сүүдэр */
+    overflow-y: auto; /* Агуулга их бол scrollbar гаргах */
+}
+
+/* Логоны хэсэг */
+.Logo {
+    display: flex;
+    justify-content: center; /* Логоныг голлуулна */
+    margin-bottom: 40px; /* Доод хэсэгт зай өгнө */
+  }
+
+
+/* Logo хэсэгт зурагны хэмжээ тохируулах */
+.Logo img {
+    height: 11vh; /* Логоны өндрийг дэлгэцийн өндрийн хувиар авах */
+}
+
+
+.Menu {
+    display: flex;
+    flex-direction: column; /* Менюг босоо байдлаар байрлуулна */
+    align-items: flex-start; /* Зүүн тийш зэрэгцүүлнэ */
+  }
+
+
+
+/* 768px-с том дэлгэц дээр Sidebar нуугдана (десктоп дээр) */
+@media (min-width: 500px) {
+    .Sidebar {
+        display: none; /* Дэлгэц том үед Sidebar нуух */
+    }
+}
+
+/* Sidebar нээгдсэн үед */
+.Open {
+    transform: translateX(0); /* Зүүнээс нээгдэж гарч ирнэ */
+}
+
+/* Sidebar хаагдсан үед */
+.Close {
+    transform: translateX(-100%); /* Дэлгэцээс зүүн тийш нуугдана */
+}
+
+/* Sidebar нээгдэхэд арын дэлгэцийг харанхуй болгох сүүдэр */
+.Shadow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Бүдэг хар өнгө (50%) */
+    z-index: 150; /* Sidebar-аас арай бага зэргийн давхаргад байх */
+    transition: opacity 0.3s ease; /* Зөөлөн харагдах шилжилт */
+    opacity: 0; /* Эхлээд харагдахгүй */
+    pointer-events: none; /* Интерэкц идэвхгүй */
+}
+
+/* Sidebar нээгдсэн үед сүүдэр харагдана */
+.Shadow.show {
+    opacity: 1; /* Сүүдэр ил гарна */
+    pointer-events: all; /* Сүүдэр дээр дарж Sidebar хаах боломжтой */
 }

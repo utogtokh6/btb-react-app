@@ -2,11 +2,18 @@
     list-style: none;
     display: flex;
     flex-direction: column;
+    align-items: flex-start; /* Зүүн тийш зэрэгцүүлнэ */
     margin: 0px;
     padding: 0px;
     height: 100%;
     align-items: center;
 }
+
+.Menu ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none; /* List-ийн цэгүүдийг арилгах */
+  }
 
 
 @media (min-width:500px){

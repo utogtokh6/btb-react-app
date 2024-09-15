@@ -1,0 +1,77 @@
+.Footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+.row div {
+    display: flex; /* Flexbox ашиглах */
+    align-items: center; /* Контентыг голлуулна */
+    margin: 20px;
+}
+
+.Footer h4 {
+    color: var(--button-color);
+    border-bottom: 6px solid var(--primary-color); /* Доод шугам нэмнэ */
+}
+
+@media (max-width: 500px) {
+    .Logo {
+        display: none; /* Лого харагдахгүй */
+    }}
+
+
+.row div {
+    display: flex;
+    flex-direction: column; /* Flexbox-г хэрэглэнэ */
+    align-items: flex-start; /* Контентыг голлуулна */
+    margin: 20px;
+}
+
+@media (min-width: 500px) {
+    .Footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .FooterTop {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        color: var(--dark-color);
+        align-items: center;
+        padding: 0 20px;
+        box-sizing: border-box;
+        z-index: 90;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; /* Элементүүдийн хооронд зай өгнө */
+        width: 100%; /* Row-г бүхэлд нь авах */
+    }
+
+    .row div {
+        display: flex;
+        flex-direction: column; /* Flexbox-г хэрэглэнэ */
+        align-items: flex-start; /* Контентыг голлуулна */
+        margin: 20px;
+    }
+
+    .container {
+        display: flex; /* Flexbox хэрэглэж зохион байгуулна */
+        align-items: center;
+        justify-content: space-between; /* Хэсгүүдийн хооронд зай өгнө */
+        max-width: 1200px; /* Дээд өргөн тогтооно */
+        margin: 0 auto;
+    }
+
+    .Footer h4 {
+        color: var(--button-color);
+        border-bottom: 6px solid var(--primary-color); /* Доод шугам нэмнэ */
+    }
+    .Logo{
+        display: none;
+    }
+}
