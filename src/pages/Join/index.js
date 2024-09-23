@@ -1,89 +1,67 @@
-import React, { useState } from 'react'
+// import React from 'react';
 import css from './style.module.css';
 
- const Join = () => {
-    const [formData, setFormData] = useState({
-        name: "",
-        email: "",
-        message: "",
-      });
+const jobPositions = [
+  {
+    id: 1,
+    title: "Software Engineer",
+    description: "We are looking for a skilled software engineer with experience in [technologies] to join our team. You’ll be responsible for [responsibilities].",
+    location: "Remote",
+    applyLink: "/apply/software-engineer"
+  },
+  {
+    id: 2,
+    title: "Marketing Manager",
+    description: "Join our marketing team to help develop and execute strategies to expand our reach and engagement. Experience with [tools] is preferred.",
+    location: "New York, NY",
+    applyLink: "/apply/marketing-manager"
+  },
+  // Add more positions as needed
+];
 
-      // Handle input changes
-      const handleInputChange = (e) => {
-        const { name, value } = e.target;
-        setFormData({
-          ...formData,
-          [name]: value,
-        });
-      };
-
-      // Handle form submission
-      const handleSubmit = (e) => {
-        e.preventDefault();
-        // Normally, you would send the form data to a server here
-        alert(`Thank you ${formData.name} for your interest!`);
-        // Clear the form after submission
-        setFormData({ name: "", email: "", message: "" });
-      };
+const JoinUs = () => {
   return (
-    <div className={css.Join}>
-         <h1>Join Us</h1>
-      <p>
-        We are excited to invite you to be a part of our community! By joining
-        us, you'll get access to exclusive content, updates, and more. We
-        welcome you to grow with us and be part of something amazing.
-      </p>
-      <p>
-        Fill out the form below to express your interest, and we'll get in touch
-        with you soon.
-      </p>
-
-      <form onSubmit={handleSubmit}>
-        <div>
-          <label>
-            Name:
-            <input
-              type="text"
-              name="name"
-              value={formData.name}
-              onChange={handleInputChange}
-              required
-            />
-          </label>
+    <div className={css.JoinUs}>
+      {/* Hero Section */}
+      <section className={css.Hero}>
+        <div className={css.HeroContent}>
+          <h1>Join Our Team</h1>
+          <p>We're looking for passionate individuals to help us grow and achieve our goals. Come join us!</p>
         </div>
+      </section>
 
-        <div >
-          <label>
-            Email:
-            <input
-              type="email"
-              name="email"
-              value={formData.email}
-              onChange={handleInputChange}
-              required
+      {/* Why Join Us Section */}
+      <section className={css.WhyJoin}>
+        <h2>Why Join Us?</h2>
+        <p>
+          At [Your Company], we believe in [core values]. Our team members enjoy [benefits, work culture, opportunities],
+          and we’re always on the lookout for driven individuals who can help us grow and innovate.
+        </p>
+      </section>
 
-            />
-          </label>
+      {/* Open Positions Section */}
+      <section className={css.Positions}>
+        <h2>Open Positions</h2>
+        <div className={css.PositionsGrid}>
+          {jobPositions.map((position) => (
+            <div key={position.id} className={css.PositionCard}>
+              <h3>{position.title}</h3>
+              <p>{position.description}</p>
+              <p><strong>Location:</strong> {position.location}</p>
+              <a href={position.applyLink} className={css.ApplyButton}>Apply Now</a>
+            </div>
+          ))}
         </div>
+      </section>
 
-        <div >
-          <label>
-            Why are you interested in joining? (Optional):
-            <textarea
-              name="message"
-              value={formData.message}
-              onChange={handleInputChange}
-
-            />
-          </label>
-        </div>
-
-        <button type="submit">
-          Submit
-        </button>
-      </form>
+      {/* Call to Action Section */}
+      <section className={css.CTASection}>
+        <h2>Don't See the Right Position?</h2>
+        <p>If you don't see a position that fits your skills, feel free to reach out to us. We're always looking for great talent!</p>
+        <a href="/contact" className={css.CTAButton}>Contact Us</a>
+      </section>
     </div>
-  )
-}
+  );
+};
 
-export default Join;
+export default JoinUs;

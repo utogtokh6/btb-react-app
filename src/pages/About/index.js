@@ -1,66 +1,69 @@
-import React from 'react'
+//
+
+import React from 'react';
 import css from './style.module.css';
 
- const About = () => {
+const teamMembers = [
+  {
+    id: 1,
+    name: "John Doe",
+    position: "CEO & Founder",
+    image: "/path-to-john-image.jpg",
+    description: "John has over 20 years of experience in [industry]. He founded the company to provide [mission or vision]."
+  },
+  {
+    id: 2,
+    name: "Jane Smith",
+    position: "Chief Technology Officer",
+    image: "/path-to-jane-image.jpg",
+    description: "Jane is an expert in [field] and has been with the company for 10 years. She leads the team with innovation."
+  },
+  // Add more team members as needed
+];
+
+const About = () => {
   return (
     <div className={css.About}>
-<div className="container aos-init aos-animate" data-aos="fade-up">
-  <div className="section-title">
-    <h2>Our Mission</h2>
-  </div>
-  <div className="row content">
-    <div className="col-lg-6 m-auto">
-      <img src="assets/images/im13.jpg" width="100%" />
+      {/* Hero Section */}
+      <section className={css.Hero}>
+        <div className={css.HeroContent}>
+          <h1>About Us</h1>
+          <p>We are a passionate team dedicated to providing the best [service/product] to our customers.</p>
+        </div>
+      </section>
+
+      {/* Mission Statement Section */}
+      <section className={css.Mission}>
+        <h2>Our Mission</h2>
+        <p>
+          At [Your Company], our mission is to [state your mission]. We believe in [core values] and work hard every day
+          to ensure that our clients get the best possible service.
+        </p>
+      </section>
+
+      {/* Team Section */}
+      <section className={css.Team}>
+        <h2>Meet Our Team</h2>
+        <div className={css.TeamGrid}>
+          {teamMembers.map((member) => (
+            <div key={member.id} className={css.TeamCard}>
+              <img src={member.image} alt={member.name} />
+              <h3>{member.name}</h3>
+              <p className={css.Position}>{member.position}</p>
+              <p>{member.description}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Call to Action Section */}
+      <section className={css.CTASection}>
+        <h2>Want to Work with Us?</h2>
+        <p>Contact us today to learn more about how we can help you achieve your goals.</p>
+        <a href="/contact" className={css.CTAButton}>Get in Touch</a>
+      </section>
     </div>
-    <div className="col-lg-6 pt-4 pt-lg-0 m-auto">
-      <p>
-        At BTB Steel Works, our mission is to deliver exceptional construction
-        services with a commitment to efficiency, purpose, and unwavering
-        dedication to safety. We endeavor to provide superior site management
-        services in <strong>Perth and Western Australia</strong>, ensuring the
-        well-being of our workers and clients throughout every stage of the
-        process. From initial conception to final completion, we are driven by a
-        relentless pursuit of excellence.
-      </p>
-      <h3>Why Choose BTB Steel Works:</h3>
-      <ul data-aos="zoom-in" className="aos-init aos-animate">
-        <li>
-          <i className="bi bi-check-circle-fill" style={{ color: "#37517e" }} />{" "}
-          Expert Steel Fixers: Our team of experienced steel fixers brings years
-          of expertise to every project, ensuring precision, quality, and
-          durability in all our work.
-        </li>
-        <li>
-          <i className="bi bi-check-circle-fill" style={{ color: "#37517e" }} />{" "}
-          Diligent Work Ethic: We approach each task with an industrious spirit,
-          going above and beyond to meet deadlines, exceed expectations, and
-          deliver results that stand the test of time.
-        </li>
-        <li>
-          <i className="bi bi-check-circle-fill" style={{ color: "#37517e" }} />{" "}
-          Competitive Pricing Models: We offer competitive pricing models that
-          provide value for your investment without compromising on the quality
-          of materials or workmanship.
-        </li>
-        <li>
-          <i className="bi bi-check-circle-fill" style={{ color: "#37517e" }} />{" "}
-          Uncompromising Standards: At BTB Steel Works, we hold ourselves to the
-          highest standards of craftsmanship and professionalism, guaranteeing
-          meticulous attention to detail and unparalleled customer satisfaction.
-        </li>
-      </ul>
-      <p>
-        When it comes to steel fixing services, trust BTB Steel Works to provide
-        stress-free solutions that transform your vision into reality.
-        Experience the difference of working with a construction company that
-        prioritizes excellence, safety, and client satisfaction. Choose BTB
-        Steel Works for your next project.
-      </p>
-    </div>
-  </div>
-</div>
-    </div>
-  )
-}
+  );
+};
 
 export default About;

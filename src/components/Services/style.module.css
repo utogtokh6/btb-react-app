@@ -1,0 +1,23 @@
+/* General styling for the services component */
+.Services {
+  display: flex;
+  margin: 30px;
+  gap:20px;
+  justify-content: space-between;
+  }
+
+ div h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    border-bottom: 4px solid var(--button-color);
+    color: var(--primary-color);
+  }
+
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .Services {
+      display: flex;
+      flex-direction: column;
+    }
+  }

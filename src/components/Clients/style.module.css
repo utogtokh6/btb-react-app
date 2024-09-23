@@ -1,0 +1,52 @@
+/* General styling for the Clients component */
+.Clients {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px 20px;
+    background: var(--button-color);
+  }
+
+  .Clients h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: var(--text-color);
+  }
+
+  /* Grid layout for the clients logos */
+  .ClientsGrid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  /* Styling for each client card */
+  .ClientCard {
+    display: block;
+    transition: transform 0.3s ease;
+  }
+
+  .ClientCard:hover .ClientLogo{
+    filter: grayscale(0%); /* Remove the grayscale to show color */
+    transform: scale(1.5); /* Enlarge the logo slightly */
+  }
+
+  /* Styling for each client logo */
+  .ClientLogo {
+    width: 150px;
+    height: auto;
+    filter: grayscale(100%); /* Make the image black and white */
+    transition: filter 0.3s ease, transform 0.3s ease;
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .ClientsGrid {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .ClientLogo {
+      width: 100px;
+    }
+  }

@@ -1,33 +1,148 @@
-.Join{
-padding: 20px;
-text-align: center;
- }
+/* /* General Styling */
+.JoinUs {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
 
- Form{
-    max-width: 400px;
-    margin: 30px;
- }
+  /* Hero Section */
+  .Hero {
+    height: 60vh;
+    background: url('../../assets/images/SwiperGallery/10.png') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
 
- Form div{
-margin-bottom: 10px;
- }
+  .HeroContent {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+  }
 
- Form div label input{
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 5px;
-    width: 100%;
-}
+  .HeroContent h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
 
-Form div label textarea{
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 5px;
-    width: 100%;
-    height: 100px;
-}
+  .HeroContent p {
+    font-size: 20px;
+  }
 
-Form button{
-padding: 10px 20px;
-cursor: pointer;
-}
+  /* Why Join Us Section */
+  .WhyJoin {
+    text-align: center;
+    padding: 60px 20px;
+  }
+
+  .WhyJoin h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .WhyJoin p {
+    font-size: 18px;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  /* Open Positions Section */
+  .Positions {
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .Positions h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+
+  .PositionsGrid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .PositionCard {
+    background-color: #f5f5f5;
+    padding: 20px;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+  }
+
+  .PositionCard:hover {
+    transform: translateY(-10px);
+  }
+
+  .PositionCard h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .PositionCard p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+
+  .ApplyButton {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  .ApplyButton:hover {
+    background-color: var(--secondary-color);
+  }
+
+  /* Call to Action Section */
+  .CTASection {
+    text-align: center;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 60px 20px;
+  }
+
+  .CTASection h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  .CTASection p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  .CTAButton {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  .CTAButton:hover {
+    background-color: #333;
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .PositionsGrid {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .PositionCard {
+      width: 100%;
+    }
+  }

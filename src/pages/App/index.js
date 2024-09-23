@@ -6,7 +6,7 @@ import Home from '../Home';
 import About from '../About';
 import Contact from '../Contact';
 import Products from '../Products';
-import Services from '../Services';
+import ServicesPage from '../Services';
 import Join from '../Join';
 import Sidebar from "../../components/Sidebar";
 import Footer from "../../components/Footer";
@@ -22,8 +22,6 @@ function App() {
 
   return (
     <div>
-      <h1>App is working</h1>
-
       {/* toggleSideBar функцыг Toolbar руу дамжуулна */}
       <Toolbar toggleSideBar={toggleSideBar} />
       {/* SideBar-д showSidebar болон toggleSideBar props дамжуулна */}
@@ -34,7 +32,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/Home" element={<Home />} />
           <Route path="/Products" element={<Products />} />
-          <Route path="/Services" element={<Services />} />
+          <Route path="/Services" element={<ServicesPage />} />
           <Route path="/About" element={<About />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Join" element={<Join />} />
