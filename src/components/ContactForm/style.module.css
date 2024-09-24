@@ -1,0 +1,69 @@
+.ContactFormContainer {
+    width: 80%;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 20px 20px;
+  }
+
+  .ContactFormContainer h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+  }
+
+  .FormGroup {
+    margin-bottom: 20px;
+  }
+
+  .FormGroup label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    display: block;
+  }
+
+  .FormGroup input,
+  .FormGroup textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+  }
+
+  .FormGroup input:focus,
+  .FormGroup textarea:focus {
+    border-color: var(--button-color);
+  }
+
+  .ErrorInput {
+    border-color: red;
+  }
+
+  .ErrorMessage {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+  .SubmitButton {
+    background-color:var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .SubmitButton:hover {
+    background-color: var(--secondary-color);
+  }
+
+  .ThankYouMessage {
+    color: var(--button-color);
+    font-size: 18px;
+  }

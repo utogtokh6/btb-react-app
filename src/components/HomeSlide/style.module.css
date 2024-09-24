@@ -1,0 +1,83 @@
+.HomeSlide {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: white;
+  }
+
+  .ImageRight {
+    flex-direction: row; /* Зураг баруун талд */
+  }
+
+  .ImageLeft {
+    flex-direction: row-reverse; /* Зураг зүүн талд */
+  }
+
+  .TextContainer {
+    flex: 1;
+    padding-right: 20px;
+  }
+
+  .TextContainer h2 {
+    font-size: 32px;
+    color: var(--primary-color);
+  }
+
+  .Subtitle {
+    font-size: 16px;
+    color: var(--button-color);
+    margin-bottom: 20px;
+  }
+
+  .TextContainer h1 {
+    font-size: 36px;
+    color: #000;
+    margin-bottom: 20px;
+  }
+
+  .Description {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+  }
+
+  .ImageContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+
+  .SlideImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Mobile буюу жижиг дэлгэцийн хувилбар */
+  @media (max-width: 768px) {
+    .HomeSlide {
+      flex-direction: column; /* Жижиг дэлгэц дээр текст болон зураг овоолно */
+      padding: 20px;
+    }
+
+    .TextContainer {
+      padding-right: 0;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .TextContainer h1 {
+      font-size: 28px;
+    }
+
+    .ImageContainer {
+      width: 100%;
+    }
+
+    .SlideImage {
+      width: 100%;
+      height: auto;
+    }
+  }

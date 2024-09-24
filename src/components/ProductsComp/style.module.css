@@ -1,0 +1,17 @@
+.ProductPage {
+    padding: 40px;
+    background-color: #f9f9f9;
+  }
+
+  .PageTitle {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #333;
+  }
+
+  .ProductGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }

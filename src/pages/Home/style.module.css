@@ -1,58 +1,3 @@
-/* .Home {
-    background-color: blueviolet;
-
-
-} */
-
-.Home {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
-
-  /* Hero Section */
-  .Hero {
-    height: 100vh;
-    background: url('../../assets/images/SwiperGallery/6.png') no-repeat center center/cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
-  }
-
-  .HeroContent {
-    max-width: 800px;
-  }
-
-
-  .HeroContent h1 {
-    font-size: 8vh;
-    margin-bottom: 20px;
-    color: var(--dark-color);
-
-  }
-
-  .HeroContent p {
-    font-size: 18px;
-    margin-bottom: 40px;
-  }
-
-  .CTAButton {
-    background-color: var(--button-color);
-    color: white;
-    padding: 15px 30px;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-  }
-
-  .CTAButton:hover {
-    background-color: var(--button-color);
-  }
-
-
   /* Call to Action Section */
   .CTASection {
     padding: 60px 20px;
@@ -87,4 +32,7 @@
     .FeatureItem {
       width: 100%;
     }
+  }
+  .HomeSlides {
+    margin-top: 10vh;/* Adjust for the height of the fixed Toolbar */
   }
