@@ -7,6 +7,7 @@ import About from '../About';
 import Contact from '../Contact';
 import Products from '../Products';
 import ServicesPage from '../Services';
+import ProjectsPage from '../Projects';
 import Join from '../Join';
 import Sidebar from "../../components/Sidebar";
 import Footer from "../../components/Footer";
@@ -33,6 +34,7 @@ function App() {
           <Route path="/Home" element={<Home />} />
           <Route path="/Products" element={<Products />} />
           <Route path="/Services" element={<ServicesPage />} />
+          <Route path="/Projects" element={<ProjectsPage />} />
           <Route path="/About" element={<About />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Join" element={<Join />} />

@@ -8,6 +8,7 @@ const Menu = () => (
         {/* <li><MenuItem link='/Home'>Home</MenuItem></li> */}
         <li><MenuItem link='/Products'>Products</MenuItem></li>
         <li><MenuItem link='/Services'>Services</MenuItem></li>
+        <li><MenuItem link='/Projects'>Projects</MenuItem></li>
         <li><MenuItem link='/About'>About</MenuItem></li>
         <li><MenuItem link="/Contact">Contact</MenuItem></li>
         <li><MenuItem link="/Join">Join Us</MenuItem></li>

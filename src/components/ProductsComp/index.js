@@ -1,5 +1,5 @@
 import React from 'react';
-import ProductCard from '../ProductCard/';
+import ProductCard from '../ProductCard';
 import productsData from '../../assets/data/productsData';
 import css from './style.module.css';
 
