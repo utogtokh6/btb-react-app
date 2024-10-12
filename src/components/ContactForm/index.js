@@ -1,4 +1,8 @@
+//
+
 import React, { useState } from 'react';
+import emailjs from '@emailjs/browser';
+import ReCAPTCHA from 'react-google-recaptcha';
 import css from './style.module.css';
 
 const ContactForm = () => {
@@ -7,20 +11,36 @@ const ContactForm = () => {
     email: '',
     message: ''
   });
-
   const [errors, setErrors] = useState({});
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [captchaVerified, setCaptchaVerified] = useState(false);
+
+  // reCAPTCHA шалгалт
+  const handleCaptchaChange = (value) => {
+    if (value) {
+      setCaptchaVerified(true);
+    }
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
     const validationErrors = validateForm();
-    if (Object.keys(validationErrors).length === 0) {
-      setIsSubmitted(true);
-      // Handle form submission (e.g., sending to a server or EmailJS)
-      console.log('Form data submitted:', formData);
+    if (Object.keys(validationErrors).length === 0 && captchaVerified) {
+      // EmailJS ашиглан форм илгээх
+      emailjs.sendForm('service_bcn7p6h', 'template_qeqmnaw', e.target, '2YBbHIWUzqkiaFAcU')
+        .then((result) => {
+          console.log('Success:', result.text);
+          setIsSubmitted(true);
+        })
+        .catch((error) => {
+          console.log('Error:', error.text);
+        });
     } else {
       setErrors(validationErrors);
+      if (!captchaVerified) {
+        setErrors((prevErrors) => ({ ...prevErrors, captcha: 'Please verify the CAPTCHA' }));
+      }
     }
   };
 
@@ -82,6 +102,15 @@ const ContactForm = () => {
               className={errors.message && css.ErrorInput}
             ></textarea>
             {errors.message && <p className={css.ErrorMessage}>{errors.message}</p>}
+          </div>
+
+          {/* reCAPTCHA */}
+          <div className={css.FormGroup}>
+            <ReCAPTCHA
+              sitekey="6LcQNl8qAAAAACz-PQwKB2nVbZDGG9LoPw8wQyLp"
+              onChange={handleCaptchaChange}
+            />
+            {errors.captcha && <p className={css.ErrorMessage}>{errors.captcha}</p>}
           </div>
 
           <button type="submit" className={css.SubmitButton}>Send Message</button>
