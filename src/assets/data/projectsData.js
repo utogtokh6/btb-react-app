@@ -5,6 +5,7 @@ import projectImage4 from '../../assets/images/Projects/4.jpg'; // Жишээ з
 import projectImage5 from '../../assets/images/Projects/5.jpg'; // Жишээ зураг 3
 import projectImage6 from '../../assets/images/Projects/6.jpg'; // Жишээ зураг 3
 import projectImage7 from '../../assets/images/Projects/7.jpg'; // Жишээ зураг 3
+import projectImage8 from '../../assets/images/Projects/7.jpg'; // Жишээ зураг 3
 
 const slidesData = [
   {
@@ -75,7 +76,7 @@ const slidesData = [
     title: "Onslow Iron",
     subtitle: "Awards for excellence 2023 finalist",
     description: "Onslow Iron is one of the largest iron ore projects currently under development in Australia, set to unlock billions of tonnes of stranded deposits in the west Pilbara region. In May 2024, first ore on ship was achieved ahead of schedule. The project will ramp up to 35 million tonnes per year, with an expected mine life of more than 30 years.",
-    imageUrl: projectImage5,
+    imageUrl: projectImage8,
     imagePosition: "left",  // Зураг баруун талд
     webUrl: "https://www.mineralresources.com.au/our-business/onslow-iron-project/",
   },
