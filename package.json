@@ -2,7 +2,7 @@
   "name": "btb-react-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://utogtokh6.github.io/btbreactapp",
+  "homepage": "https://utogtokh6.github.io/btb-react-app",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@testing-library/jest-dom": "^5.17.0",
