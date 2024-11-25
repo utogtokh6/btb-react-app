@@ -7,7 +7,7 @@ const slidesData = [
     id: 1,  // ID-г нэмж байна
     title: "ABOUT US",
     subtitle: "OUR STORY & VISION",
-    description: "Precast Concrete are your trusted partner for top-quality precast concrete solutions in Australia.",
+    description: "We strive to be the top contractor for wind turbine foundation construction, driving success in renewable energy ventures.",
     imageUrl: slideImage1,
     imagePosition: "right",  // Зураг баруун талд
   },
