@@ -6,8 +6,7 @@ import ServiceCard from '../ServiceCard/'; // Import ServiceCard component
 const Services = () => {
   return (
     <div>
-      <h2>Our Services</h2>
-      <div className={css.Services}>
+        <div className={css.Services}>
         {servicesData.map((service) => (
           <ServiceCard
             key={service.id}

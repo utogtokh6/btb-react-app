@@ -36,3 +36,24 @@
   .HomeSlides {
     margin-top: 10vh;/* Adjust for the height of the fixed Toolbar */
   }
+
+
+  .Hero {
+    height: 90vh;
+    background: url('../../assets/images/SwiperGallery/5.png') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+
+  .HeroContent {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .Home {
+    background-color: var(--backgd-color);
+  }

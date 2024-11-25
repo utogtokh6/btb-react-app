@@ -8,6 +8,13 @@ import HomeSlides from '../../components/HomeSlides';
 const Home = () => {
   return (
     <div className={css.Home}>
+
+      <section className={css.Hero}>
+        <div className={css.HeroContent}>
+          <h1>We strive to be the top contractor for wind turbine foundation construction, driving success in renewable energy ventures</h1>
+       </div>
+      </section>
+
       <section className = {css.HomeSlides}>
         <HomeSlides/>
       </section>

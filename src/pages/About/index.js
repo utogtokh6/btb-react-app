@@ -42,7 +42,7 @@ const About = () => {
       </section>
 
       {/* Team Section */}
-      <section className={css.Team}>
+      {/* <section className={css.Team}>
         <h2>Meet Our Team</h2>
         <div className={css.TeamGrid}>
           {teamMembers.map((member) => (
@@ -54,7 +54,7 @@ const About = () => {
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
 
       {/* Call to Action Section */}
       <section className={css.CTASection}>

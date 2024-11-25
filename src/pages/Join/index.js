@@ -1,23 +1,23 @@
 // import React from 'react';
 import css from './style.module.css';
 
-const jobPositions = [
-  {
-    id: 1,
-    title: "Software Engineer",
-    description: "We are looking for a skilled software engineer with experience in [technologies] to join our team. You’ll be responsible for [responsibilities].",
-    location: "Remote",
-    applyLink: "/apply/software-engineer"
-  },
-  {
-    id: 2,
-    title: "Marketing Manager",
-    description: "Join our marketing team to help develop and execute strategies to expand our reach and engagement. Experience with [tools] is preferred.",
-    location: "New York, NY",
-    applyLink: "/apply/marketing-manager"
-  },
-  // Add more positions as needed
-];
+// const jobPositions = [
+//   {
+//     id: 1,
+//     title: "Software Engineer",
+//     description: "We are looking for a skilled software engineer with experience in [technologies] to join our team. You’ll be responsible for [responsibilities].",
+//     location: "Remote",
+//     applyLink: "/apply/software-engineer"
+//   },
+//   {
+//     id: 2,
+//     title: "Marketing Manager",
+//     description: "Join our marketing team to help develop and execute strategies to expand our reach and engagement. Experience with [tools] is preferred.",
+//     location: "New York, NY",
+//     applyLink: "/apply/marketing-manager"
+//   },
+//   // Add more positions as needed
+// ];
 
 const JoinUs = () => {
   return (
@@ -40,7 +40,7 @@ const JoinUs = () => {
       </section>
 
       {/* Open Positions Section */}
-      <section className={css.Positions}>
+      {/* <section className={css.Positions}>
         <h2>Open Positions</h2>
         <div className={css.PositionsGrid}>
           {jobPositions.map((position) => (
@@ -52,12 +52,11 @@ const JoinUs = () => {
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
 
       {/* Call to Action Section */}
       <section className={css.CTASection}>
-        <h2>Don't See the Right Position?</h2>
-        <p>If you don't see a position that fits your skills, feel free to reach out to us. We're always looking for great talent!</p>
+        <h2>Do you want join us?</h2>
         <a href="/contact" className={css.CTAButton}>Contact Us</a>
       </section>
     </div>
