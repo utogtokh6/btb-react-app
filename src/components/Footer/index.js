@@ -8,9 +8,9 @@ const Footer = () => {
     <footer className={css.footer}>
       <div className={css.footercontainer}>
         <div className={css.footerlinks}>
-          <a href="/Home" className={css.footerlink}>Home</a>
-          <a href="/Products" className={css.footerlink}>Products</a>
-          <a href="/Services" className={css.footerlink}>Services</a>
+          <a href="/#/Home" className={css.footerlink}>Home</a>
+          <a href="#/Products" className={css.footerlink}>Products</a>
+          <a href="/#/Services" className={css.footerlink}>Services</a>
           <a href="/about" className={css.footerlink}>About Us</a>
           <a href="/contact" className={css.footerlink}>Contact</a>
           <a href="/Join" className={css.footerlink}>Join Us</a>
