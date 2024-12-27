@@ -35,6 +35,7 @@
   }
   .HomeSlides {
     margin-top: 10vh;/* Adjust for the height of the fixed Toolbar */
+    background: var(--backgd-color);
   }
 
 
