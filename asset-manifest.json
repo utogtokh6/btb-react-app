@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/btb-react-app/static/css/main.9a6b27a1.css",
-    "main.js": "/btb-react-app/static/js/main.44549e17.js",
-    "static/js/453.78bc338e.chunk.js": "/btb-react-app/static/js/453.78bc338e.chunk.js",
+    "main.js": "/btb-react-app/static/js/main.642022a8.js",
     "static/media/10.png": "/btb-react-app/static/media/10.8bb6cdbe778b61c3cd1b.png",
     "static/media/5.png": "/btb-react-app/static/media/5.01ac9e5332233183ff65.png",
     "static/media/7.png": "/btb-react-app/static/media/7.a177dce7f1084901e34c.png",
@@ -29,11 +28,10 @@
     "static/media/arc-removebg.png": "/btb-react-app/static/media/arc-removebg.0ffed3fc796a025b29e0.png",
     "index.html": "/btb-react-app/index.html",
     "main.9a6b27a1.css.map": "/btb-react-app/static/css/main.9a6b27a1.css.map",
-    "main.44549e17.js.map": "/btb-react-app/static/js/main.44549e17.js.map",
-    "453.78bc338e.chunk.js.map": "/btb-react-app/static/js/453.78bc338e.chunk.js.map"
+    "main.642022a8.js.map": "/btb-react-app/static/js/main.642022a8.js.map"
   },
   "entrypoints": [
     "static/css/main.9a6b27a1.css",
-    "static/js/main.44549e17.js"
+    "static/js/main.642022a8.js"
   ]
 }
