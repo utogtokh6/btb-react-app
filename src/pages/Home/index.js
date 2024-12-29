@@ -12,7 +12,7 @@ const Home = () => {
 
       <section className={css.Hero}>
         <div className={css.HeroContent}>
-          <h1>We strive to be the top contractor for wind turbine foundation construction, driving success in renewable energy ventures</h1>
+          <h1>We strive to be the preferred contractor for wind turbine foundation construction, driving success in renewable energy ventures</h1>
        </div>
       </section>
 

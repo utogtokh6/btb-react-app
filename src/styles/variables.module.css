@@ -1,11 +1,11 @@
-:root {
+/* :root {
   --primary-color:#005af5;
   --secondary-color: #f27f0c;
   --text-color: #f4f2dd;
   --button-color: #f7ad19;
   --dark-color: #00338d;
   --backgd-color:#00163d;
-}
+} */
 
 /*
  :root {
@@ -32,6 +32,7 @@
   --button-color: #5bc0be;
   --dark-color: #0b132b;
   --backgd-color:#141e26;
+  --whitetext-color:white;
 }
 
 

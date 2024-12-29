@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 40px;
-    background-color: white;
+    background: var(--backgd-color);
   }
 
   .ImageRight {
@@ -22,7 +22,7 @@
 
   .TextContainer h2 {
     font-size: 32px;
-    color: var(--primary-color);
+    color: white;
   }
 
   .Subtitle {
@@ -40,7 +40,7 @@
   .Description {
     font-size: 25px;
     line-height: 1.6;
-    color: #555;
+    color: white;
   }
 
   .ImageContainer {
