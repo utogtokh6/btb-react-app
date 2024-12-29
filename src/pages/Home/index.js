@@ -4,6 +4,7 @@ import css from './style.module.css';
 import Services from '../../components/Services';
 import Clients from '../../components/Clients';
 import HomeSlides from '../../components/HomeSlides';
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -27,7 +28,7 @@ const Home = () => {
       {/* Call to Action Section */}
       <section className={css.CTASection}>
         <h2>Ready to Get Started?</h2>
-        <a href="/contact" className={css.CTAButton}>Contact Us Today</a>
+        <Link to="/contact" className={css.CTAButton}>Contact Us Today</Link>
       </section>
     </div>
   );

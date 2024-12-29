@@ -1,5 +1,6 @@
 // import React from 'react';
 import css from './style.module.css';
+import { Link } from "react-router-dom";
 
 // const jobPositions = [
 //   {
@@ -57,7 +58,7 @@ const JoinUs = () => {
       {/* Call to Action Section */}
       <section className={css.CTASection}>
         <h2>Do you want join us?</h2>
-        <a href="/contact" className={css.CTAButton}>Contact Us</a>
+        <Link to="/contact" className={css.CTAButton}>Contact Us Today</Link>
       </section>
     </div>
   );

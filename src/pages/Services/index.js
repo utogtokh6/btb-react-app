@@ -1,6 +1,7 @@
 import React from 'react';
 import css from './style.module.css';
 import Services from "../../components/Services";
+import { Link } from "react-router-dom";
 
 const ServicesPage = () => {
   return (
@@ -18,7 +19,7 @@ const ServicesPage = () => {
         <p>
           Contact us today to find out how our services can help you achieve your goals.
         </p>
-        <a href="/contact" className={css.CTAButton}>Contact Us</a>
+        <Link to="/contact" className={css.CTAButton}>Contact Us Today</Link>
       </section>
     </div>
   );
