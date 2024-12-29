@@ -1,6 +1,7 @@
 import React from "react";
 import { FaFacebook, FaLinkedin, FaInstagram } from "react-icons/fa";
 import css from './style.module.css';
+import { Link } from "react-router-dom";
 import "../../../src/styles/variables.module.css";
 
 const Footer = () => {
@@ -8,12 +9,19 @@ const Footer = () => {
     <footer className={css.footer}>
       <div className={css.footercontainer}>
         <div className={css.footerlinks}>
-          <a href="/#/Home" className={css.footerlink}>Home</a>
+
+        <Link to="/" className={css.footerlink}>Home</Link>
+          <Link to="/Products" className={css.footerlink}>Products</Link>
+          <Link to="/Services" className={css.footerlink}>Services</Link>
+          <Link to="/About" className={css.footerlink}>About Us</Link>
+          <Link to="/Contact" className={css.footerlink}>Contact</Link>
+          <Link to="/Join" className={css.footerlink}>Join Us</Link>
+          {/* <a href="/#/Home" className={css.footerlink}>Home</a>
           <a href="#/Products" className={css.footerlink}>Products</a>
           <a href="/#/Services" className={css.footerlink}>Services</a>
           <a href="/about" className={css.footerlink}>About Us</a>
           <a href="/contact" className={css.footerlink}>Contact</a>
-          <a href="/Join" className={css.footerlink}>Join Us</a>
+          <a href="/Join" className={css.footerlink}>Join Us</a> */}
         </div>
 
         <div className={css.footersocial}>
