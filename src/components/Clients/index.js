@@ -13,7 +13,7 @@ const clients = [
     name: "Client One",
     logo: client1Logo,
     hoverLogo: client1HoverLogo,
-    website: "https://www.client1.com"
+    website: "https://www.arcreo.com.au/"
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ const clients = [
     name: "Client Three",
     logo: client3Logo,
     hoverLogo: client3HoverLogo,
-    website: "https://www.client3.com"
+    website: "https://www.hanssen.com.au/"
   },
   // Add more clients as needed
 ];
