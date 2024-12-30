@@ -6,9 +6,7 @@ import { Link } from "react-router-dom";
 const ServicesPage = () => {
   return (
     <div className={css.Services}>
-      {/* Intro Section */}
-      <h1>Our Sevices</h1>
-      {/* Service Cards Section */}
+      <h1>-</h1>
       <section className={css.ServiceCards}>
         <Services />
       </section>
