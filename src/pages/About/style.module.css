@@ -42,7 +42,7 @@
   }
 
   .Mission p {
-    font-size: 18px;
+    font-size: 22px;
     color: #666;
     max-width: 800px;
     margin: 0 auto;
@@ -115,10 +115,18 @@
     font-size: 28px;
     margin-bottom: 20px;
   }
+  .CTASection h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: start;
+    color: var(--text-color);
+
+  }
 
   .CTASection p {
-    font-size: 18px;
+    font-size: 24px;
     margin-bottom: 30px;
+    text-align: start;
   }
 
   .CTAButton {
