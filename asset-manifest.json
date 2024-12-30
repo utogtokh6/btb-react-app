@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/btb-react-app/static/css/main.2f07c917.css",
-    "main.js": "/btb-react-app/static/js/main.6879cf35.js",
+    "main.css": "/btb-react-app/static/css/main.3461fa8e.css",
+    "main.js": "/btb-react-app/static/js/main.0d162198.js",
     "static/media/10.png": "/btb-react-app/static/media/10.8bb6cdbe778b61c3cd1b.png",
     "static/media/11.png": "/btb-react-app/static/media/11.48caeffa0868b2e8d2f3.png",
     "static/media/12.png": "/btb-react-app/static/media/12.3a1c08852aba77324454.png",
@@ -29,11 +29,11 @@
     "static/media/black-text-logo.png": "/btb-react-app/static/media/black-text-logo.056be27a62004e0ed513.png",
     "static/media/arc-removebg.png": "/btb-react-app/static/media/arc-removebg.0ffed3fc796a025b29e0.png",
     "index.html": "/btb-react-app/index.html",
-    "main.2f07c917.css.map": "/btb-react-app/static/css/main.2f07c917.css.map",
-    "main.6879cf35.js.map": "/btb-react-app/static/js/main.6879cf35.js.map"
+    "main.3461fa8e.css.map": "/btb-react-app/static/css/main.3461fa8e.css.map",
+    "main.0d162198.js.map": "/btb-react-app/static/js/main.0d162198.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f07c917.css",
-    "static/js/main.6879cf35.js"
+    "static/css/main.3461fa8e.css",
+    "static/js/main.0d162198.js"
   ]
 }
