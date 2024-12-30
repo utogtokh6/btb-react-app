@@ -14,11 +14,11 @@ import Logo from '../Logo'
         <div>
           <h4>Location</h4>
           <p>
-            48/189 Swansea Street,
+            101 Armadale Rd,
             <br />
-            East Victoria Park,
+            Rivervale,
             <br />
-            Perth WA 6101
+            WA 6103
             <br />
           </p>
         </div>

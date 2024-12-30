@@ -2,24 +2,7 @@
 
 import React from 'react';
 import css from './style.module.css';
-
-const teamMembers = [
-  {
-    id: 1,
-    name: "John Doe",
-    position: "CEO & Founder",
-    image: "/path-to-john-image.jpg",
-    description: "John has over 20 years of experience in [industry]. He founded the company to provide [mission or vision]."
-  },
-  {
-    id: 2,
-    name: "Jane Smith",
-    position: "Chief Technology Officer",
-    image: "/path-to-jane-image.jpg",
-    description: "Jane is an expert in [field] and has been with the company for 10 years. She leads the team with innovation."
-  },
-  // Add more team members as needed
-];
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -41,26 +24,11 @@ const About = () => {
         </p>
       </section>
 
-      {/* Team Section */}
-      {/* <section className={css.Team}>
-        <h2>Meet Our Team</h2>
-        <div className={css.TeamGrid}>
-          {teamMembers.map((member) => (
-            <div key={member.id} className={css.TeamCard}>
-              <img src={member.image} alt={member.name} />
-              <h3>{member.name}</h3>
-              <p className={css.Position}>{member.position}</p>
-              <p>{member.description}</p>
-            </div>
-          ))}
-        </div>
-      </section> */}
-
       {/* Call to Action Section */}
       <section className={css.CTASection}>
         <h2>Want to Work with Us?</h2>
         <p>Contact us today to learn more about how we can help you achieve your goals.</p>
-        <a href="/contact" className={css.CTAButton}>Get in Touch</a>
+        <Link to="/contact" className={css.CTAButton}>Get in Touch</Link>
       </section>
     </div>
   );

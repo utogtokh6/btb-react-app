@@ -7,6 +7,13 @@
 .Services {
     font-family: Arial, sans-serif;
     padding: 20px;
+    background: var(--backgd-color);
+  }
+
+  .Services h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: var(--text-color);
   }
 
   /* Intro Section */

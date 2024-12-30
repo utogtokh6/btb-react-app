@@ -1,8 +1,8 @@
-import serivceImage1 from '../../assets/images/ServicesImage/img1.jpg'; // Example image
+import serivceImage1 from '../../assets/images/ServicesImage/img13.jpg'; // Example image
 import serivceImage2 from '../../assets/images/ServicesImage/img2.jpg'; // Example image
-import serivceImage3 from '../../assets/images/ServicesImage/img3.jpg'; // Example image
+import serivceImage3 from '../../assets/images/ServicesImage/7.png'; // Example image
 import serivceImage4 from '../../assets/images/ServicesImage/img4.jpg'; // Example image
-import serivceImage5 from '../../assets/images/ServicesImage/img5.jpg'; // Example image
+import serivceImage5 from '../../assets/images/ServicesImage/2.png'; // Example image
 
 
 export const servicesData = [

@@ -9,7 +9,7 @@
   .Clients h1 {
     font-size: 25px;
     margin-bottom: 20px;
-    color: var(--text-color);
+    color: var(--whitetext-color);
   }
 
   /* Grid layout for the clients logos */
