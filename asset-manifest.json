@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/btb-react-app/static/css/main.0e8960c1.css",
-    "main.js": "/btb-react-app/static/js/main.c21d09c1.js",
+    "main.css": "/btb-react-app/static/css/main.2f07c917.css",
+    "main.js": "/btb-react-app/static/js/main.6879cf35.js",
     "static/media/10.png": "/btb-react-app/static/media/10.8bb6cdbe778b61c3cd1b.png",
-    "static/media/5.png": "/btb-react-app/static/media/5.01ac9e5332233183ff65.png",
-    "static/media/7.png": "/btb-react-app/static/media/7.a177dce7f1084901e34c.png",
-    "static/media/6.png": "/btb-react-app/static/media/6.2d6b741d3c6c2bf26186.png",
-    "static/media/img1.jpg": "/btb-react-app/static/media/img1.d038a867e132d8afab06.jpg",
-    "static/media/img5.jpg": "/btb-react-app/static/media/img5.9fdd798e20f30c4f4cdc.jpg",
+    "static/media/11.png": "/btb-react-app/static/media/11.48caeffa0868b2e8d2f3.png",
+    "static/media/12.png": "/btb-react-app/static/media/12.3a1c08852aba77324454.png",
+    "static/media/14.png": "/btb-react-app/static/media/14.a22af99dc0ba2a7ee6cb.png",
     "static/media/img2.jpg": "/btb-react-app/static/media/img2.f62fa3a3f08ac2b8a547.jpg",
     "static/media/img4.jpg": "/btb-react-app/static/media/img4.0e253a04a9cb9c912949.jpg",
-    "static/media/img3.jpg": "/btb-react-app/static/media/img3.b064403968b978be2d28.jpg",
-    "static/media/7.jpg": "/btb-react-app/static/media/7.7b2c001538e2df6e0b90.jpg",
-    "static/media/6.jpg": "/btb-react-app/static/media/6.cca7de378448a8238f9f.jpg",
-    "static/media/4.png": "/btb-react-app/static/media/4.7c094e4e186d12b17443.png",
-    "static/media/3.png": "/btb-react-app/static/media/3.f011903e748100625301.png",
+    "static/media/7.png": "/btb-react-app/static/media/7.3b35bc059e9af5f13894.png",
+    "static/media/9.png": "/btb-react-app/static/media/9.09a9aae6efab96cdd5c6.png",
     "static/media/2.png": "/btb-react-app/static/media/2.fd302ac27b4435b5eb41.png",
     "static/media/2.jpg": "/btb-react-app/static/media/2.049f27f7f52727ddc6de.jpg",
+    "static/media/img13.jpg": "/btb-react-app/static/media/img13.681bd66b284f88e9547f.jpg",
+    "static/media/7.jpg": "/btb-react-app/static/media/7.7b2c001538e2df6e0b90.jpg",
+    "static/media/6.jpg": "/btb-react-app/static/media/6.cca7de378448a8238f9f.jpg",
+    "static/media/6.png": "/btb-react-app/static/media/6.2d6b741d3c6c2bf26186.png",
+    "static/media/4.png": "/btb-react-app/static/media/4.7c094e4e186d12b17443.png",
+    "static/media/5.png": "/btb-react-app/static/media/5.01ac9e5332233183ff65.png",
+    "static/media/3.png": "/btb-react-app/static/media/3.f011903e748100625301.png",
     "static/media/1.jpg": "/btb-react-app/static/media/1.069fbdd3630b8370c1d5.jpg",
     "static/media/5.jpg": "/btb-react-app/static/media/5.8f103c25164dbd0efad3.jpg",
     "static/media/4.jpg": "/btb-react-app/static/media/4.423533389eeec48637c1.jpg",
@@ -27,11 +29,11 @@
     "static/media/black-text-logo.png": "/btb-react-app/static/media/black-text-logo.056be27a62004e0ed513.png",
     "static/media/arc-removebg.png": "/btb-react-app/static/media/arc-removebg.0ffed3fc796a025b29e0.png",
     "index.html": "/btb-react-app/index.html",
-    "main.0e8960c1.css.map": "/btb-react-app/static/css/main.0e8960c1.css.map",
-    "main.c21d09c1.js.map": "/btb-react-app/static/js/main.c21d09c1.js.map"
+    "main.2f07c917.css.map": "/btb-react-app/static/css/main.2f07c917.css.map",
+    "main.6879cf35.js.map": "/btb-react-app/static/js/main.6879cf35.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e8960c1.css",
-    "static/js/main.c21d09c1.js"
+    "static/css/main.2f07c917.css",
+    "static/js/main.6879cf35.js"
   ]
 }
