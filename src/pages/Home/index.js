@@ -22,9 +22,11 @@ const Home = () => {
      <section className={css.Serives}>
           <Services />
       </section>
+
       <section className={css.Clients}>
           <Clients/>
       </section>
+
       {/* Call to Action Section */}
       <section className={css.CTASection}>
         <h2>Ready to Get Started?</h2>
