@@ -7,10 +7,7 @@ const JoinUs = () => {
     <div className={css.JoinUs}>
       {/* Hero Section */}
       <section className={css.Hero}>
-        {/* <div className={css.HeroContent}>
-          <h1>Join Our Team</h1>
-          <p>We're looking for passionate individuals to help us grow and achieve our goals. Come join us!</p>
-        </div> */}
+
       </section>
 
       {/* Why Join Us Section */}

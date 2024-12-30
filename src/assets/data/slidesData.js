@@ -1,5 +1,5 @@
-import slideImage1 from '../../assets/images/SwiperGallery/12.png'; // Жишээ зураг 1
-import slideImage2 from '../../assets/images/SwiperGallery/10.png'; // Жишээ зураг 2
+import slideImage1 from '../../assets/images/SwiperGallery/12.webp'; // Жишээ зураг 1
+import slideImage2 from '../../assets/images/SwiperGallery/10.webp'; // Жишээ зураг 2
 
 const slidesData = [
   {

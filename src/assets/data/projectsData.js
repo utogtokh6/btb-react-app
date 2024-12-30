@@ -5,7 +5,7 @@ import projectImage4 from '../../assets/images/Projects/4.jpg'; // Жишээ з
 import projectImage5 from '../../assets/images/Projects/5.jpg'; // Жишээ зураг 3
 import projectImage6 from '../../assets/images/Projects/6.jpg'; // Жишээ зураг 3
 import projectImage7 from '../../assets/images/Projects/7.jpg'; // Жишээ зураг 3
-import projectImage8 from '../../assets/images/Projects/9.png'; // Жишээ зураг 3
+import projectImage8 from '../../assets/images/Projects/9.webp'; // Жишээ зураг 3
 
 const slidesData = [
   {
