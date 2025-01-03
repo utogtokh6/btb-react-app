@@ -9,6 +9,7 @@ import Products from '../Products';
 import ServicesPage from '../Services';
 import ProjectsPage from '../Projects';
 import Join from '../Join';
+import ProductDetail from '../../components/ProductDetails';
 import Sidebar from "../../components/Sidebar";
 import Footer from "../../components/Footer";
 import FooterTop from "../../components/FooterTop";
@@ -38,6 +39,8 @@ function App() {
           <Route path="/About" element={<About />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Join" element={<Join />} />
+           {/* Product detail page */}
+           <Route path="/product/:id" element={<ProductDetail />} /> {/* Product detail */}
         </Routes>
       </main>
       <FooterTop />
