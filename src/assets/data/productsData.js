@@ -14,10 +14,10 @@ import productImage11 from '../../assets/images/ProductImage/11.png';
 
 const productsData = [
   {
-    id: 1,
+    id:1,
     name: "Fig 2",
-    description: "A high-quality for construction.",
-    size: "600 x 600 x 600mm - 0.5 Tonne",
+    description: "1/3m 250mm x 125mm",
+    size: "25 kg",
     price: "$120",
     imageUrl: productImage1,
   },
@@ -48,8 +48,8 @@ const productsData = [
   {
     id: 5,
     name: "Fig 8",
-    description: "A high-quality for construction.",
-    size: " 800 x 800 x 800mm - 1.2 Tonne",
+    description: "",
+    size: "1/3m 250mm x 125mm",
     price: "$50",
     imageUrl: productImage5,
   },

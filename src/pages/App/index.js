@@ -9,6 +9,7 @@ import Products from '../Products';
 import ServicesPage from '../Services';
 import ProjectsPage from '../Projects';
 import Join from '../Join';
+import JoinUsForm from '../../components/JoinUsForm';
 import ProductDetail from '../../components/ProductDetails';
 import Sidebar from "../../components/Sidebar";
 import Footer from "../../components/Footer";
@@ -32,13 +33,14 @@ function App() {
       <main className={css.content}>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/Home" element={<Home />} />
-          <Route path="/Products" element={<Products />} />
-          <Route path="/Services" element={<ServicesPage />} />
-          <Route path="/Projects" element={<ProjectsPage />} />
-          <Route path="/About" element={<About />} />
-          <Route path="/Contact" element={<Contact />} />
-          <Route path="/Join" element={<Join />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/services" element={<ServicesPage />} />
+          <Route path="/projects" element={<ProjectsPage />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/join" element={<Join />} />
+          <Route path="/joinUs" element={<JoinUsForm />} />   {/* Join Us page */}
            {/* Product detail page */}
            <Route path="/product/:id" element={<ProductDetail />} /> {/* Product detail */}
         </Routes>

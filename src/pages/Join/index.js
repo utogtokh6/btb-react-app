@@ -22,7 +22,7 @@ const JoinUs = () => {
       {/* Call to Action Section */}
       <section className={css.CTASection}>
         <h2>Do you want join us?</h2>
-        <Link to="/contact" className={css.CTAButton}>Contact Us Today</Link>
+        <Link to="/joinUs" className={css.CTAButton}>Join Us Today</Link>
       </section>
     </div>
   );

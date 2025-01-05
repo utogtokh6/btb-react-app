@@ -1,0 +1,60 @@
+.JoinUsForm {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 200px;
+  }
+
+  .InputGroup {
+    margin-bottom: 1rem;
+  }
+
+  .InputGroup input,
+  .InputGroup textarea {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+  }
+
+  .InputGroup textarea {
+    height: 150px;
+  }
+
+  .ErrorInput {
+    border: 1px solid red;
+  }
+
+  .ErrorMessage {
+    color: red;
+    font-size: 0.9rem;
+  }
+
+  .SubmitButton {
+    padding: 10px 15px;
+    background-color: var(--button-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .SubmitButton:hover {
+    background-color: var(--secondary-color);
+  }
+
+
+  .ThankYouMessage {
+    color: green;
+    font-size: 1rem;
+  }
+
+
+  .ViewButton {
+    padding: 10px 15px;
+    background-color: var(--button-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }

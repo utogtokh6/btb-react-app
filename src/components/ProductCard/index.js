@@ -27,13 +27,13 @@ import css from './style.module.css';
 import { Link } from 'react-router-dom';
 
 const ProductCard = ({ name, description, price, size, imageUrl, id }) => {
-  return (
+ return (
     <div className={css.ProductCard}>
       <img src={imageUrl} alt={name} className={css.ProductImage} />
       <div className={css.ProductContent}>
         <h3 className={css.ProductName}>{name}</h3>
-        <p className={css.ProductDescription}>{description}</p>
-        <p className={css.ProductSize}><strong>Size:</strong> {size}</p>
+        <p className={css.ProductDescription}><strong>Dimentions:</strong>{description}</p>
+        <p className={css.ProductSize}><strong>Weight:</strong> {size}</p>
         <div className={css.ProductFooter}>
           <span className={css.ProductPrice}>{price}</span>
           <Link to={`/product/${id}`}>

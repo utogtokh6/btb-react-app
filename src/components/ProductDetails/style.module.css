@@ -10,6 +10,10 @@
     margin-top: 120px;
   }
 
+  .ProductDetail p strong {
+    color: var(--secondary-color);
+  }
+
   .ProductImage {
     max-width: 100%;
     height: auto;
@@ -21,16 +25,15 @@
     margin-bottom: 20px;
   }
 
-  p {
-    font-size: 1rem;
-    color: #333;
-  }
-
   .QuantityControl {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 20px 0;
+  }
+
+  .NotFound{
+    margin-top: 200px;
   }
 
   .QuantityButton {
@@ -45,7 +48,7 @@
   }
 
   .QuantityButton:hover {
-    background-color: #007bff;
+    background-color:var(--button-color);
     color: white;
   }
 
@@ -82,7 +85,7 @@
 
   .OrderButton {
     padding: 12px 24px;
-    background-color: #007bff;
+    background-color: var(--button-color);
     color: white;
     border: none;
     border-radius: 5px;
@@ -93,7 +96,7 @@
   }
 
   .OrderButton:hover {
-    background-color: #0056b3;
+    background-color: var(--secondary-color);
   }
 
   .ThankYouMessage {

@@ -9,14 +9,16 @@ const ProductsComp = () => {
     <h1 className={css.PageTitle}>Our Products</h1>
     <div className={css.ProductGrid}>
       {productsData.map((product) => (
-        <ProductCard
+           <ProductCard
           key={product.id}
+          id={product.id}
           name={product.name}
           description={product.description}
           price={product.price}
           size={product.size}
           imageUrl={product.imageUrl}
         />
+
       ))}
     </div>
   </section>
